@@ -68,10 +68,10 @@ def stream_markup_timer(_, vidid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/Trustedseller105"
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/arfinvoldigoads"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/Thunder_World_Chat"
+                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/gcsupport_Ryo_bot_id"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -90,7 +90,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/gcsupport_Ryo_bot_id"
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/arfinvoldigoads"
             ),
             InlineKeyboardButton(
                 text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/gcsupport_Ryo_bot_id"
@@ -245,7 +245,7 @@ def stream_markup2(_, chat_id):
         ],
 [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/gcsupport_Ryo_bot_id"
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/arfinvoldigoads"
             ),
             InlineKeyboardButton(
                 text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/gcsupport_Ryo_bot_id"
