@@ -25,7 +25,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7250012103"))
+OWNER_ID = int(getenv("OWNER_ID", "6995317382"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -42,11 +42,11 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SURAJ_MARKET")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Thunder_World_Chat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/gcsupport_Ryo_bot_id")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/gcsupport_Ryo_bot_id")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 
 # Auto Gcast/Broadcast Handler (True = broadcast on , False = broadcast off During Hosting, Dont Do anything here.)
 AUTO_GCAST = os.getenv("AUTO_GCAST")
@@ -89,21 +89,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/wocluq.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/fbe3bdcd88c2ce22dc9a1.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/4f59fb748e1990acfa297.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/6ecedcea37c0e827ed809.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/14eb59ea7d31229d8d751.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/4310ea5f523520b2b765b.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/923c1faac33d8c70335dc.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6c66f8b192532fe758e82.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/ebc4dc6357be06e08a3ed.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/d339f390ec168c19879c6.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/ee0cd53ab73f08f4a3627.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/5f9fb5bba66021c782d96.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/affe0afec5c7ad63676a4.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/3c446e8dee78ed0ca62ff.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/9806820d661b377f7fb4f.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/35e8cdd7d1bf324a1fb10.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/877b8a3ff6ffcca2be611.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/9bfe645019fef2a655528.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/c5511eb039a3b86457439.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/cafd617b52670f065acac.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/990764478ea480c2f33a9.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/7d4c6e9b5a9e24551c0e2.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/fbe3bdcd88c2ce22dc9a1.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/fbe3bdcd88c2ce22dc9a1.jpg"
 
 
 def time_to_seconds(time):
